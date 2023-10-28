@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assignment1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="center">
+        <div class="containerr" id="con">
+            <div class="head">
+                <label for="">Contact Us Form</label>
+            </div>
+            <div class="name">
+                <div class="labl"><label for="namee">Name</label></div>
+                <div class="inpt"><input type="text" name="namee"></div>
+            </div>
+            <div class="email">
+                <div class="labl"><label for="namee">Email</label></div>
+                <div class="inpt"><input type="text" name="namee"></div>
+            </div>
+            <div class="contact">
+                <div class="labl"><label for="namee">Phone Number (Optional)</label></div>
+                <div class="inpt"><input type="text" name="namee"></div>
+            </div>
+            <div class="message">
+                <div class="labl"><label for="namee">Message</label></div>
+                <div class="inpt"><textarea name="yourMessage" rows="5"></textarea></div>
+            </div>
+            <div class="butn">
+                <button class="subtbtn" onclick="submitt()">Submit</button>
+                <button class="clrbtn" onclick="clearrr()">Clear</button>
+                <button class="chkentbtn" onclick="loadEntry()">Check the entries</button>
+            </div>
+        </div>
+        <div id="table">
+        </div>
+        <div class="backtoform">
+            <button style="width: 100%;" onclick="backtoForm()">Back to form</button>
+        </div>
+    </div>
+    <script src="assignment1.js"></script>
+</body>
+
+</html>

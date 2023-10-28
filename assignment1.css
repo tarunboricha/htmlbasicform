@@ -1,0 +1,89 @@
+.center {
+    align-items: center;
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.containerr {
+    background-color: rgb(237, 237, 237);
+    width: 30%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head {
+    padding-left: 7%;
+    padding-top: 6%;
+    margin-bottom: 5%;
+}
+
+.labl {
+    width: 32%;
+}
+
+.inpt {
+    width: 65%;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+.name,
+.email,
+.contact,
+.message {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin-bottom: 5%;
+}
+
+.butn {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.subtbtn,
+.clrbtn {
+    width: 20%;
+}
+
+button {
+    background-color: #cfe2f3;
+    border: 1.5px solid;
+}
+
+.backtoform {
+    display: none;
+    width: 15%;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .containerr {
+        width: 80%;
+        padding: 1.5%;
+        padding-right: 0.6%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;
+    }
+
+    .backtoform {
+        display: none;
+        width: 30%;
+        align-items: center;
+    }
+}
