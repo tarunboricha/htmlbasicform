@@ -103,4 +103,7 @@ button {
         background-color: rgb(237, 237, 237);
         width: 26%;
     }
+    .labl {
+        width: 40%;
+    }
 }
