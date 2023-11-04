@@ -86,6 +86,9 @@ button {
         width: 30%;
         align-items: center;
     }
+    .labl {
+        width: 38%;
+    }
 }
 @media (min-width:768px) {
     .containerr {
